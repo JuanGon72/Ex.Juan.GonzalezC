@@ -7,9 +7,11 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+
+        <title>Resultado</title>
     </head>
     <body>
         <%@ page import="Controlador.Calc" %>
@@ -26,8 +28,8 @@
             calc.total();
             total = calc.getTotal();
          %>
-         <h2>Capital Final <%= total %> </h2>
-         <h2>Su ganacia fue de  <%= ganancia %> </h2>   
+         <div class="innerDiv">Capital Final = <%= total %> </div></br> </br>
+          <div class="innerDiv">Su ganacia fue de  = <%= ganancia %> </div>   
          <form action="index.jsp" method="post">
              <input type="submit" value="Regresar">
          </form>

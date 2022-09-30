@@ -9,10 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  
         <title>Calculadora de Interes simple </title>
     </head>
     <body>
-        <h1>Hello World!</h1>
         
         <h1>CALCULO INTERES SIMPLE</h1>
         
@@ -23,6 +24,7 @@
         <label >Ingrese cantida de años a invertir :</label><input type="text" name="anos" id="idAnos" required /> <br />
         
         <input type="submit" name="btnCalcular" value="Calcular">
+        
         </form>    
         
     </body>
