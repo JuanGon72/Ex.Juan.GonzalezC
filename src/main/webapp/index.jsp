@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 24-sep-2022, 20:11:59
-    Author     : JuanGo
+    Author     : Juan Gonzalez C.
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

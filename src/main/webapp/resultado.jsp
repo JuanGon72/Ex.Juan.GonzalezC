@@ -1,7 +1,7 @@
 <%-- 
     Document   : resultado
     Created on : 28-sep-2022, 21:24:22
-    Author     : JuanGo
+    Author     : Juan Gonzalez C.
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
