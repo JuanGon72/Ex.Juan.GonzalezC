@@ -16,7 +16,7 @@
     <body>
         
         <h1>CALCULO INTERES SIMPLE</h1>
-        
+        <h1 >Link <a href="https://github.com/JuanGon72/Ex.Juan.GonzalezC">github.com</h1>
         <form method="POST" action="resultado.jsp">
             
         <label >Ingrese Capital Inversion :</label><input type="text" name="cInicial" id="idCapital" required /> <br />
