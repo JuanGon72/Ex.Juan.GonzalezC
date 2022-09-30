@@ -16,11 +16,11 @@
     <body>
         
         <h1>CALCULO INTERES SIMPLE</h1>
-        <h1 >Link <a href="https://github.com/JuanGon72/Ex.Juan.GonzalezC">github.com</h1>
+        <h1 >Link <a href="https://github.com/JuanGon72/Ex.Juan.GonzalezC">github.com</a></h1>
         <form method="POST" action="resultado.jsp">
             
         <label >Ingrese Capital Inversion :</label><input type="text" name="cInicial" id="idCapital" required /> <br />
-        <label >Ingrese Tasa de Interes anul % :</label><input type="text" name="tInteres" id="idInteres" required /> <br />
+        <label >Ingrese Tasa de Interes anual % :</label><input type="text" name="tInteres" id="idInteres" required /> <br />
         <label >Ingrese cantida de años a invertir :</label><input type="text" name="anos" id="idAnos" required /> <br />
         
         <input type="submit" name="btnCalcular" value="Calcular">
